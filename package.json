@@ -1,0 +1,20 @@
+{
+  "name": "email-validator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "dns": "^0.2.2",
+    "fs": "^0.0.1",
+    "promises": "^2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "@vercel/node": "^2.0.0"
+  }
+}
